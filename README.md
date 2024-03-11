@@ -1,7 +1,7 @@
 <h1 align="center"> CSTART </h1>
 
 <p align="center">
-  <a href="#memo-projeto">Projeto</a>
+  <a href="#memo-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-code">Code</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
