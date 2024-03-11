@@ -1,0 +1,11 @@
+CREATE TABLE T_CSTART_PROFISSAO 
+(
+    id_profissao               NUMERIC(5)    NOT NULL,
+    nm_profissao               VARCHAR(100)  NOT NULL,
+    id_competencia             NUMERIC(5)    NOT NULL,
+    ds_profissao               TEXT          NOT NULL
+);
+
+    ALTER TABLE T_CSTART_PROFISSAO  
+        ADD CONSTRAINT PK_CSTART_ID_PROFISSAO 
+        PRIMARY KEY (id_profissao)

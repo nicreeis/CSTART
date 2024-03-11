@@ -1,0 +1,5 @@
+CREATE TABLE T_CSTART_PROFIS_SETOR 
+(
+    id_setor                      NUMERIC(5)        NOT NULL,
+    id_profissao                  NUMERIC(5)        NOT NULL
+); 
