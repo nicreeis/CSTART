@@ -1,5 +1,0 @@
-CREATE TABLE T_CSTART_USER_COMPET
-(
-    id_usuario                    NUMERIC(5)        NOT NULL, 
-    id_competencia                NUMERIC(5)        NOT NULL
-);
