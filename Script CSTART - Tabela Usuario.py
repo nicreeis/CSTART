@@ -11,7 +11,7 @@ tabela = {
     "id_usuario": [],
     "nm_usuario": [],
     "ds_email": [],
-    "ds_localizacao": [],
+    "cd_cidade": [],
     "dt_nascimento": [],
     "ds_genero": [],
     "nr_ddd": [],
@@ -35,7 +35,7 @@ for i in range(5):
 
     tabela["nm_usuario"].append(input("Digite o nome do usuário: "))
     tabela["ds_email"].append(input("Digite o email do usuário: "))
-    tabela["ds_localizacao"].append(input("Digite a localização do usuário: "))
+    tabela["cd_cidade"].append(input("Digite a cidade do usuário: "))
     tabela["dt_nascimento"].append(input("Digite a data de nascimento do usuário (dd/mm/yyyy): "))
 
     genero_valido = False
@@ -76,6 +76,8 @@ for i in range(5):
             print(f"Erro de número: {nie}")
         except Exception as e:
             print(f"Erro desconhecido: {e}")
+          
+    print("-"*60)
 
 # Gravando os dados em um arquivo CSV
 try:
